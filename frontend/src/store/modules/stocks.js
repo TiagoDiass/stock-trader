@@ -20,8 +20,10 @@ const actions = {
     commit('setStocks', resposta.data);
   },
 
-  async buyStock({ commit }, order) {
+  async buyStock(_, order) {
     const url = '/stocks/buy';
+
+    // eslint-disable-next-line
     const resposta = await Vue.prototype.$httpClient.post(url, {
       stockId: order.stockId,
       stockAmount: order.stockQuantity,
