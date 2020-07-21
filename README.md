@@ -1,5 +1,5 @@
 <h1 align="center">
-  :heavy_dollar_sign: StockTrader :heavy_dollar_sign: <br><br>
+  :heavy_dollar_sign: StockTrader :heavy_dollar_sign:
 </h1>
 
 <h4 align="center">
