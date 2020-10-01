@@ -1,16 +1,14 @@
 <h1 align="center">
-  :heavy_dollar_sign: StockTrader :heavy_dollar_sign: <br><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshots/Preview.png" width="650">
+  :heavy_dollar_sign: StockTrader :heavy_dollar_sign:
 </h1>
 
 <h4 align="center">
-  A web application developed with Vue.js where users can buy stocks and sell them to have profit
+  This is the version of the <a href="https://github.com/TiagoDiass/stock-trader-vue-firebase">StockTrader</a> app that I changed to use a REST API as the back-end of the app and I've also refactored the code of the front-end to use the API instead of the Firebase database. In this application users can buy stocks and sell them to have profit
 </h4>
 
 <p align="center">
-  <img alt="Repo's top language" src="https://img.shields.io/static/v1?label=Main%20technology&message=Vue.js%20-%2065.5%&style=for-the-badge&color=24B36B&labelColor=000000">
-  <img alt="Repository size" src="https://img.shields.io/static/v1?label=Repo%20size&message=0.8%20MB&style=for-the-badge&color=24B36B&labelColor=000000">
+  <img alt="Repo's top language" src="https://img.shields.io/static/v1?label=Main%20technologies&message=Vue.js%20and%20Node.js&style=for-the-badge&color=24B36B&labelColor=000000">
+  <img alt="Repository size" src="https://img.shields.io/static/v1?label=Repo%20size&message=0.7%20MB&style=for-the-badge&color=24B36B&labelColor=000000">
 </p>
 
 <p align="center">
@@ -20,29 +18,28 @@
   <a href="#how-to-use">How to Run</a>
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;![](Preview.gif)
-
 <h2 id="techonologies" name="technologies">
   :rocket: Used Technologies
 </h2>
 
+#### Front-end techs:
 - [Vue.js](https://br.vuejs.org) to build all the front-end in general
 - [Vuex](https://vuex.vuejs.org) to manage the state of the application
 - [Vuetify](https://vuetifyjs.com/en) to build the application faster without having to create a lot of components and style them
 - [Sweet Alert](https://sweetalert.js.org/) to give the user friendlier alerts
 - [Axios.js](https://github.com/axios/axios) to make the requests for the backend
-- [Firebase](https://firebase.google.com/) to have an online and realtime database in the cloud
+
+#### Back-end techs:
+- [Node.js](https://nodejs.org/en/) To build the REST API in general
+- [Express.js](https://expressjs.com/) Framework for building REST APIs with Node.js
+- [FileSystem Module](https://nodejs.org/api/fs.html) to save the data in a JSON file
 
 
 <h2 id="objective" name="objective">
   :dart: The project's objective
 </h2>
 
-The aim of this project was practicing and fixing the concepts of Vue.js and Vuex(state manager for Vue.js apps) in my head, I enjoyed building this app really much and I also loved the final result
+The aim of this project was practicing and fixing the concepts of Vue.js and Vuex(state manager for Vue.js apps) in my head, and also experience the process of the back-end and the front-end development in a project, I enjoyed building this app really much and I also loved the final result
 
 <h2 id="final-result" name="final-result">
   :clipboard: Final Result
@@ -64,11 +61,26 @@ $ git clone https://github.com/TiagoDiass/stock-trader.git
 # Enter in the repository
 $ cd stock-trader
 
+# Enter in the back-end folder
+$ cd backend
+
 # Install the dependencies
 $ yarn install
 
-# Start the app
-$ yarn serve
+# Start the backend
+$ yarn start
+```
+
+After following the steps above, open another terminal on the base directory of the repo and follow the steps below:
+```
+# Enter in the front-end folder
+$ cd frontend
+
+# Install the dependencies
+$ yarn install
+
+# Start the frontend
+$ yarn start
 ```
 
 After following these steps, the terminal will show you in which port it's running, it's on the port 8080 usually, so, you'll just need to enter in your browser and
