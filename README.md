@@ -18,6 +18,10 @@
   <a href="#how-to-use">How to Run</a>
 </p>
 
+<p align="center">
+  <img src="screenshots/1.png" width="700" >
+</p>
+
 <h2 id="techonologies" name="technologies">
   :rocket: Used Technologies
 </h2>
