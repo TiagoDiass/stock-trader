@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  This is the version of the <a href="https://github.com/TiagoDiass/stock-trader-vue-firebase">StockTrader</a> app that I changed to use a REST API as the back-end of the app and I've also refactored the code of the front-end to use the API instead of the Firebase database. In this application users can buy stocks and sell them to have profit
+  A web application where users can buy stocks and sell them to have profit
 </h4>
 
 <p align="center">
